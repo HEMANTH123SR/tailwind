@@ -6,12 +6,12 @@ const Slider=()=>{
         <div className="m-32 bg-pink-300 h-56
         rounded-lg
         flex flex-row
-        space-x-20
+        space-x-32
         ">
    <img src={summerBeverage} />
    <div className="space-y-10">
 
-    <div className="space-y-2 ">
+    <div className="space-y-1 ">
         <h1 className="pt-4"></h1>
         <h1></h1>
     <h1>Refresh & Rejuvenate With</h1>

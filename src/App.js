@@ -3,6 +3,7 @@ import Nav from './components/Nav.js';
 import Pop from "./components/Pop.js";
 import BestSection from './components/BestSection';
 import Slider from './components/Slider';
+import Cards from './components/Cards';
 function App() {
   return (
     <div className="font-sans font-medium">
@@ -10,6 +11,7 @@ function App() {
   <Pop/>
   <BestSection/>
   <Slider/>
+  <Cards/>
     </div>
   );
 }
