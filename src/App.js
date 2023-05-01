@@ -4,6 +4,7 @@ import Pop from "./components/Pop.js";
 import BestSection from './components/BestSection';
 import Slider from './components/Slider';
 import Cards from './components/Cards';
+import Info from './components/Info';
 function App() {
   return (
     <div className="font-sans font-medium">
@@ -12,6 +13,7 @@ function App() {
   <BestSection/>
   <Slider/>
   <Cards/>
+  <Info/>
     </div>
   );
 }
