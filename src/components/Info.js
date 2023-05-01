@@ -4,7 +4,7 @@ const Info=()=>{
     
     return(
      
-      <div className="mt-16 bg-slate-300 p-16 mb-44">
+      <div className="mt-16 bg-slate-300 p-16 ">
 <div className="s-bg w-full h-96 pt-56
 text-white
 space-y-4
