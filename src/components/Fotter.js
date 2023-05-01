@@ -7,7 +7,7 @@ import ios from"../assets/appstoreiOS.png"
 const Fotter=()=>{
     return(
         <div className="w-full 
-        h-96
+        h-{26rem}
         mt-16
         bg-green-900
         flex flex-col 
@@ -47,9 +47,9 @@ const Fotter=()=>{
    <p>Customer Service</p>
    <p>FAQs</p>
     </div>
-    <div className="">
+    <div className=" space-y-4">
         {/* Social Media */}
-        <h1 className="text-2xl space-y-4">SOCIAL MEDIA</h1>
+        <h1 className="text-2xl">SOCIAL MEDIA</h1>
         <div className="flex flex-row space-x-6">
         <img src={insta} className="w-8"/>
         <img src={facebook} className="w-8"/>
@@ -63,6 +63,9 @@ const Fotter=()=>{
         <img src={ios}/>
     </div>
 </div>
+
+<hr className="mt-14 mb-10"/>
+ <h1 className="text-center ">© 2023 Starbucks Coffee Company. All rights reserved.</h1>
         </div>
     )
 }
